@@ -177,18 +177,18 @@
           />
 
           <div>
-            <p class="font-bold">Hamburguer Duplo</p>
+            <p class="font-bold">Hamburguer X-egg</p>
             <p class="text-sm">
               Pão levinho de fermentação natural de trigo, burguer 160g, quijo
               prato e maionese da casa
             </p>
 
             <div class="flex items-center gap-2 justify-between mt-3">
-              <p class="font-bold text-lg">R$ 32.90</p>
+              <p class="font-bold text-lg">R$ 12.90</p>
               <button
                 class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Hamburguer Duplo"
-                data-price="32.90"
+                data-name="Hamburguer X-egg"
+                data-price="12.90"
               >
                 <i class="fa fa-cart-plus text-lg text-white"></i>
               </button>
@@ -205,18 +205,18 @@
           />
 
           <div>
-            <p class="font-bold">Hamburguer Duplo</p>
+            <p class="font-bold">Hamburguer Tudao</p>
             <p class="text-sm">
               Pão levinho de fermentação natural de trigo, burguer 160g, quijo
               prato e maionese da casa
             </p>
 
             <div class="flex items-center gap-2 justify-between mt-3">
-              <p class="font-bold text-lg">R$ 32.90</p>
+              <p class="font-bold text-lg">R$ 49.90</p>
               <button
                 class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                data-name="Hamburguer Duplo"
-                data-price="32.90"
+                data-name="Hamburguer Tudao"
+                data-price="49.90"
               >
                 <i class="fa fa-cart-plus text-lg text-white"></i>
               </button>
@@ -377,11 +377,13 @@
 
     <!-- modal-->
     <div
-      class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+      class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden "
     id="cart-modal">
       <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
         <h2 class="text-center font-bold text-2xl mb-2">Meu Carrinho</h2>
-        <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+        <div class="overflow-y-scroll max-h-96">
+          <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+        </div>
         <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
         <p class="font-bold mt-4">Endereço de entrega</p>
         <input
